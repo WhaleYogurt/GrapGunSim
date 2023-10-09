@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CircularSpeedometer
+    - CountdownTimer
     - GrapplingGun
     - GroundMaker
     - MoveCamera
@@ -127,29 +128,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4190}
     - Class: 114
-      Script: {instanceID: 4438}
+      Script: {instanceID: 4386}
     - Class: 114
-      Script: {instanceID: 4884}
+      Script: {instanceID: 4440}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 4886}
     - Class: 114
-      Script: {instanceID: 5518}
+      Script: {instanceID: 5142}
     - Class: 114
-      Script: {instanceID: 5844}
+      Script: {instanceID: 5520}
     - Class: 114
-      Script: {instanceID: 6072}
+      Script: {instanceID: 5846}
     - Class: 114
-      Script: {instanceID: 6170}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 6172}
     - Class: 114
-      Script: {instanceID: 6898}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 6922}
+      Script: {instanceID: 6900}
     - Class: 114
-      Script: {instanceID: 29868}
+      Script: {instanceID: 6924}
     - Class: 114
-      Script: {instanceID: 29870}
+      Script: {instanceID: 36048}
+    - Class: 114
+      Script: {instanceID: 36050}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -851,6 +854,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: eaa7eacca17d0a11cda488005282e52c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CountdownTimer
+  - hash:
+      serializedVersion: 2
       Hash: fcc569162a8d9bd9df34e8c9dee84212
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1061,7 +1070,7 @@ ScriptsOnlyBuild:
     className: Suspension
   - hash:
       serializedVersion: 2
-      Hash: f7b0ec8588c9590d87b0a94541a80ba3
+      Hash: 045df9871343e01840f5bf7c06eb0e36
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement

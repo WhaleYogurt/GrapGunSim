@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Charlie\CharliePrimaryWeapon.cs" />
     <Compile Include="Assets\RCDefinedRenderPipeline.cs" />
     <Compile Include="Assets\Scripts\GrapGun\WeaponSway.cs" />
+    <Compile Include="Assets\CountdownTimer.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\ScoreCounter.cs" />
     <Compile Include="Assets\Scripts\GrapGun\RotateGun.cs" />
