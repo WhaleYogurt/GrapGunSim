@@ -34058,7 +34058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc8fba35efefe69479622df71f8944c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: Infinity
+  countdownTime: 100
   countdownText: {fileID: 524037784}
   scoreText: {fileID: 688543482}
   endGamePanel: {fileID: 513356550}
