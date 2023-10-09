@@ -51,7 +51,7 @@ public class CircularSpeedometer : MonoBehaviour
             backplateImage.color = currentColor;
 
             // Calculate the rotation angle based on the speed, limited to a 180-degree scale
-            float rotationAngle = Mathf.Clamp(speedMPH / maxSpeedMPH, -0.5f, 0.5f) * 180f;
+            float rotationAngle = Mathf.Clamp(speedMPH / maxSpeedMPH, -0.5f, 0.5f) * 360f;
 
             // Rotate the needle object to the calculated angle
             needleObject.transform.rotation = Quaternion.Euler(0f, 0f, -rotationAngle);

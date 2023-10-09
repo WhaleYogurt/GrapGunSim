@@ -41,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 playerScale;
     public float slideForce = 400;
     public float slideCounterMovement = 0.2f;
+    public float slideCooldownDuration = 2.0f; // Duration of the cooldown (e.g., 2 seconds)
+    private float timeSinceLastSlide = float.MaxValue; // Initialize with a large value
 
     //Jumping
     private bool readyToJump = true;
@@ -76,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        timeSinceLastSlide += Time.deltaTime;
         MyInput();
         Look();
     }
@@ -123,7 +126,13 @@ public class PlayerMovement : MonoBehaviour
         // transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
         if (rb.velocity.magnitude > 0.5f)
         {
-            if (grounded)
+            if (timeSinceLastSlide >= slideCooldownDuration && !grounded)
+            {
+                rb.AddForce(orientation.transform.forward * slideForce * 0.25f);
+                rb.AddForce(playerCam.transform.forward * slideForce * 1.25f);
+                timeSinceLastSlide = 0f;
+            }
+            else if (timeSinceLastSlide >= slideCooldownDuration && grounded)
             {
                 rb.AddForce(orientation.transform.forward * slideForce);
             }

@@ -57,19 +57,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\Scripts\Charlie\CharliePrimaryWeapon.cs" />
     <Compile Include="Assets\RCDefinedRenderPipeline.cs" />
     <Compile Include="Assets\Scripts\GrapGun\WeaponSway.cs" />
-    <Compile Include="Assets\CountdownTimer.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-    <Compile Include="Assets\ScoreCounter.cs" />
     <Compile Include="Assets\Scripts\GrapGun\RotateGun.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\Scripts\ScoreTrigger.cs" />
+    <Compile Include="Assets\Scripts\CountdownTimer.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\Scripts\ScoreCounter.cs" />
     <Compile Include="Assets\Scripts\CircularSpeedometer.cs" />
     <Compile Include="Assets\Scripts\GrapGun\GrapplingGun.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />

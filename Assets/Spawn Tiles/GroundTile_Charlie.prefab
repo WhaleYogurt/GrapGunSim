@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CharlieCropped
       objectReference: {fileID: 0}
+    - target: {fileID: 7157309607397930224, guid: 6110118a953d0f149822b0b8a8150d07, type: 3}
+      propertyPath: m_Name
+      value: Charlie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 6110118a953d0f149822b0b8a8150d07, type: 3}
