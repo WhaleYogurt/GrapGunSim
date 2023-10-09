@@ -53,7 +53,7 @@ MonoBehaviour:
     percentage: 5
   - gameObject: {fileID: 8124795782028932081, guid: 8de25269f5b79b646ba0f2cdd07ce1a1, type: 3}
     percentage: 5
-  - gameObject: {fileID: 8124795782028932081, guid: ba005f6c45755ea468d3ac90fbf0b439, type: 3}
+  - gameObject: {fileID: 8124795782028932081, guid: 529c49709576a794aa328ea29faedb22, type: 3}
     percentage: 3
   - gameObject: {fileID: 8124795782028932081, guid: 9689b1ceb3dd1454da36cab3c2cdbc79, type: 3}
     percentage: 5

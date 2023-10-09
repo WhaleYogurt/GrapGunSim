@@ -145,7 +145,8 @@
         137,
         138,
         139,
-        140
+        140,
+        141
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -299,7 +300,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 15454,
+      "PayloadLength": 15547,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -394,6 +395,7 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
+        "C:/Users/willy/GrapGunSim/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
         "C:/Users/willy/GrapGunSim/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
         "C:/Users/willy/GrapGunSim/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
         "C:/Users/willy/GrapGunSim/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
@@ -1304,6 +1306,18 @@
       "DebugActionIndex": 83
     },
     {
+      "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Assembly-CSharp-firstpass.dll",
+      "DisplayName": "Copying Assembly-CSharp-firstpass.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/willy/GrapGunSim/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll"
+      ],
+      "Outputs": [
+        "Builds/FPS Map Test_Data/Managed/Assembly-CSharp-firstpass.dll"
+      ],
+      "DebugActionIndex": 84
+    },
+    {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Assembly-CSharp.dll",
       "DisplayName": "Copying Assembly-CSharp.dll",
       "ActionType": "CopyFiles",
@@ -1313,7 +1327,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Unity.Timeline.dll",
@@ -1325,7 +1339,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/UnityEngine.UI.dll",
@@ -1337,7 +1351,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Elringus.SpriteGlow.Runtime.dll",
@@ -1349,7 +1363,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Elringus.SpriteGlow.Runtime.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Unity.TextMeshPro.dll",
@@ -1361,7 +1375,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1373,7 +1387,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1385,7 +1399,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1397,7 +1411,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1409,7 +1423,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/netstandard.dll",
@@ -1421,7 +1435,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/Mono.Security.dll",
@@ -1433,7 +1447,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1445,7 +1459,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Configuration.dll",
@@ -1457,7 +1471,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Core.dll",
@@ -1469,7 +1483,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1481,7 +1495,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Data.dll",
@@ -1493,7 +1507,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Drawing.dll",
@@ -1505,7 +1519,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.EnterpriseServices.dll",
@@ -1517,7 +1531,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1529,7 +1543,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.IO.Compression.dll",
@@ -1541,7 +1555,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Net.Http.dll",
@@ -1553,7 +1567,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Numerics.dll",
@@ -1565,7 +1579,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Runtime.Serialization.dll",
@@ -1577,7 +1591,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Security.dll",
@@ -1589,7 +1603,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1601,7 +1615,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Transactions.dll",
@@ -1613,7 +1627,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Xml.Linq.dll",
@@ -1625,7 +1639,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.Xml.dll",
@@ -1637,7 +1651,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/System.dll",
@@ -1649,7 +1663,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Managed/mscorlib.dll",
@@ -1661,20 +1675,20 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 15626,
+      "PayloadOffset": 15719,
       "PayloadLength": 27,
       "PayloadDebugContentSnippet": "DefaultCompany\nFPS Map Test",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/app.info",
@@ -1687,9 +1701,9 @@
         "Builds/FPS Map Test_Data/app.info"
       ],
       "ToBuildDependencies": [
-        114
+        115
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test_Data/Resources/unity default resources",
@@ -1701,7 +1715,7 @@
       "Outputs": [
         "Builds/FPS Map Test_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Builds/FPS Map Test.exe",
@@ -1713,7 +1727,7 @@
       "Outputs": [
         "Builds/FPS Map Test.exe"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1725,7 +1739,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1737,7 +1751,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1749,7 +1763,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1761,7 +1775,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1773,7 +1787,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1785,7 +1799,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1797,7 +1811,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1809,7 +1823,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1821,7 +1835,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1833,7 +1847,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1845,7 +1859,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1857,7 +1871,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1869,7 +1883,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1881,7 +1895,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1893,7 +1907,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1905,7 +1919,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -1917,7 +1931,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -1929,7 +1943,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/config",
@@ -1941,7 +1955,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -1953,7 +1967,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Builds/UnityCrashHandler64.exe",
@@ -1965,7 +1979,7 @@
       "Outputs": [
         "Builds/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Builds/UnityPlayer.dll",
@@ -1977,7 +1991,7 @@
       "Outputs": [
         "Builds/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "Player",
@@ -2096,7 +2110,7 @@
         111,
         112,
         113,
-        115,
+        114,
         116,
         117,
         118,
@@ -2120,10 +2134,11 @@
         136,
         137,
         138,
-        139
+        139,
+        140
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 140
+      "DebugActionIndex": 141
     }
   ],
   "FileSignatures": [
@@ -2324,7 +2339,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 140
+          "Player": 141
         }
 ,  "DefaultNodes": [
     0
