@@ -128,6 +128,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if (timeSinceLastSlide >= slideCooldownDuration && !grounded)
             {
+                rb.velocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
                 rb.AddForce(orientation.transform.forward * slideForce * 0.25f);
                 rb.AddForce(playerCam.transform.forward * slideForce * 1.25f);
                 timeSinceLastSlide = 0f;

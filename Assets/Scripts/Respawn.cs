@@ -9,9 +9,18 @@ public class Respawn : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         GameObject otherGameObject = collision.gameObject;
-        if (collision.gameObject.name == "Charlie" || collision.gameObject.name == "Chris")
+        // Debug.Log(otherGameObject.name);
+        if (collision.gameObject.name == "Charlie")
         {
-            scoreCounter.EarnPoint(500);
+            scoreCounter.EarnPoint(250);
+        }
+        else if (collision.gameObject.name == "Chris")
+        {
+            scoreCounter.EarnPoint(100);
+        }
+        else if (collision.gameObject.name == "Player")
+        {
+            scoreCounter.TakePoints((scoreCounter.Score / 3) + 200);
         }
         otherGameObject.transform.position = RespawnPosition;
     }

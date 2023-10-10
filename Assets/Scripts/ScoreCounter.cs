@@ -23,4 +23,12 @@ public class ScoreCounter : MonoBehaviour
     {
         Score += (int)(points * multiplier);
     }
+
+    public void TakePoints(int points)
+    {
+        if (Score - points > 0) {
+            Score -= points;
+        }
+        else { Score = 0; }
+    }
 }
