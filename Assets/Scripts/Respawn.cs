@@ -21,7 +21,7 @@ public class Respawn : MonoBehaviour
         else if (collision.gameObject.name == "Player")
         {
             scoreCounter.TakePoints((scoreCounter.Score / 3) + 200);
+            otherGameObject.transform.position = RespawnPosition;
         }
-        otherGameObject.transform.position = RespawnPosition;
     }
 }
