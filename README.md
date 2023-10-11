@@ -1,7 +1,7 @@
 
 # GrapGunSim
 
-GrapGunSim is a Unity-based project that simulates a grappling gun in a 3D environment.
+GrapGunSim is a Unity-based project that simulates a grappling gun in a 3D environment. Your goal is to launch yourself into floating orbs and crystals to collect points. You can also gain bonus points for throwing player models into the void
 
 ## Table of Contents
 
