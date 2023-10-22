@@ -24,6 +24,10 @@ public class GameController : MonoBehaviour
         // Disable the countdown timer initially
         countdownTimer.enabled = false;
     }
+    void Update()
+    {
+        Time.fixedDeltaTime = 0.01f * Time.timeScale;
+    }
     public void RestartGame()
     {
         // Reload the current scene to restart the game
