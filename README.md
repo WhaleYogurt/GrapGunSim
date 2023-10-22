@@ -20,17 +20,16 @@ The GrapGunSim project focuses on the dynamics of a grappling gun in a 3D game e
 1. Ensure you have [Unity](https://unity.com/) installed on your machine.
 2. Clone or download this repository.
 3. Open the `GrapGunSim` project in Unity.
-4. Navigate to the `Assets` directory and load the main scene.
+4. Load the main directory and load the main scene.
 
 ## Usage
 
 1. Play the main scene in Unity.
-2. Use the controls (please specify) to operate the grappling gun and interact with the environment.
+2. Use the wasd to operate the grappling gun and interact with the environment.
 
 ## Contribution
 
-Contributions are welcome! Please read the contribution guidelines (if any) before submitting pull requests or raising issues.
-
+Contributions are welcome!
 ## License
 
 None atm
